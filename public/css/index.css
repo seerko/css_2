@@ -122,7 +122,9 @@
 
 /* Завдання №19. Застосуйте селектор :focus-within до блоку,
 який змінює колір тексту на білий та фоновий колір на жовтий при активному стані. */
-.lesson-four-task-nineteen .btn-group:focus-within {
+.lesson-four-task-nineteen
+  .btn-group:focus-within
+  button:active {
   color: white;
   background: yellow;
 }
